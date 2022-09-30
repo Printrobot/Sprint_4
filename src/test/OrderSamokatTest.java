@@ -9,7 +9,6 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import src.model.OrderSamokatPage;
-
 import java.util.concurrent.TimeUnit;
 
 @RunWith(Parameterized.class)
@@ -43,7 +42,7 @@ public class OrderSamokatTest{
     public static Object[][] getTestData() {
         return new Object[][]{
                 {"Кирилл", "Генин", "Москва", "Лубянка", "84951234567", "Доставить к подъзду"},
-//                {"Сергей", "Иванов", "Москва", "Сокольники", "+79161234567", "Позвонить за час"},
+                {"Сергей", "Иванов", "Москва", "Сокольники", "+79161234567", "Позвонить за час"},
             };
     }
     @Test
@@ -66,7 +65,7 @@ public class OrderSamokatTest{
 
     @After
     public void tearDown(){
-//        driver.quit();
+        driver.quit();
     }
 
 }

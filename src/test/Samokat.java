@@ -10,6 +10,8 @@ import static org.junit.Assert.assertEquals;
 
 //Этот класс черновик для отладки тестов - можно не смотреть
 
+
+
 public class Samokat {
     private WebDriver driver;
 
