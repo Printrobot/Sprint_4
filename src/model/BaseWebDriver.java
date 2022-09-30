@@ -1,8 +1,10 @@
+package src.model;
+
 import org.openqa.selenium.WebDriver;
 
-public abstract class BasePage {
+public abstract class BaseWebDriver {
     protected final WebDriver driver;
-    public BasePage(WebDriver driver) {
+    public BaseWebDriver(WebDriver driver) {
         this.driver = driver;
     }
 }

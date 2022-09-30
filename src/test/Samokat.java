@@ -38,7 +38,7 @@ public class Samokat {
 //        Заказ самоката. Весь флоу позитивного сценария.
 //        Обрати внимание, что есть две точки входа в сценарий: кнопка «Заказать» вверху страницы и внизу.
         @Test
-        public void orderButtonOnTop_Positive() {
+        public void orderButtonOnTop_Positive1() {
             driver = new ChromeDriver();
             driver.get("https://qa-scooter.praktikum-services.ru/");
 
